@@ -17,7 +17,7 @@
  * under the License.
  */
 
-%module(directors="1") main
+%module(directors="1") typedb_driver
 %{
 extern "C" {
 #include "typedb_driver.h"
