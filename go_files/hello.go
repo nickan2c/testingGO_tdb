@@ -11,6 +11,9 @@
 package hello
 
 /*
+#cgo CFLAGS: -g -Wall -std=c99
+#cgo LDFLAGS: -L. -lhello2
+
 #define intgo swig_intgo
 typedef void *swig_voidp;
 
@@ -38,26 +41,20 @@ import "unsafe"
 import _ "runtime/cgo"
 import "sync"
 
-
 type _ unsafe.Pointer
-
-
 
 var Swig_escape_always_false bool
 var Swig_escape_val interface{}
 
-
 type _swig_fnptr *byte
 type _swig_memberptr *byte
 
-
-func getSwigcptr(v interface { Swigcptr() uintptr }) uintptr {
+func getSwigcptr(v interface{ Swigcptr() uintptr }) uintptr {
 	if v == nil {
 		return 0
 	}
 	return v.Swigcptr()
 }
-
 
 type _ sync.Mutex
 
@@ -80,5 +77,3 @@ func Add(arg1 int, arg2 int) (_swig_ret int) {
 	swig_r = (int)(C._wrap_add_hello_e6e0f6dd793dbfa3(C.swig_intgo(_swig_i_0), C.swig_intgo(_swig_i_1)))
 	return swig_r
 }
-
-
