@@ -1,0 +1,13 @@
+-shared
+-o
+bazel-out/darwin-fastbuild/bin/go/swigdir/libtypedb_driver_go_native.dylib
+bazel-out/darwin-fastbuild/bin/go/swigdir/_objs/libtypedb_driver_go_native.dylib/__typedb_driver_go_native_swig_wrap.pic.o
+bazel-out/darwin-fastbuild/bin/c/libtypedb_driver_clib.a
+-Wl,-S
+-undefined
+dynamic_lookup
+-headerpad_max_install_names
+-lSystem
+-lresolv
+-lc++
+-lm

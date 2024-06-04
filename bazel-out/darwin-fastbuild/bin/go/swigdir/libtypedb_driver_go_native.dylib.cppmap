@@ -1,0 +1,5 @@
+module "//go/swigdir:libtypedb_driver_go_native.dylib" {
+  export *
+  use "crosstool"
+}
+extern module "crosstool" "../../../../../external/local_config_cc/module.modulemap"

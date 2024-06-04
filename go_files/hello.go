@@ -6,14 +6,11 @@
  * the SWIG interface file instead.
  * ----------------------------------------------------------------------------- */
 
-// source: go_files/helloswig.i
+// source: ../go_files/helloswig.i
 
 package hello
 
 /*
-#cgo CFLAGS: -g -Wall -std=c99
-#cgo LDFLAGS: -L. -lhello2
-
 #define intgo swig_intgo
 typedef void *swig_voidp;
 

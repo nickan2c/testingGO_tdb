@@ -1,0 +1,3 @@
+vaticle_typedb_driver/c/libtypedb_driver_clib.a /private/var/tmp/_bazel_nickan/95c3371f6202c3fa475712f59d822915/execroot/vaticle_typedb_driver/bazel-out/darwin-fastbuild/bin/c/libtypedb_driver_clib.a
+vaticle_typedb_driver/c/typedb_driver.h /private/var/tmp/_bazel_nickan/95c3371f6202c3fa475712f59d822915/execroot/vaticle_typedb_driver/bazel-out/darwin-fastbuild/bin/c/typedb_driver.h
+vaticle_typedb_driver/go/swigdir/libtypedb_driver_go_native.dylib /private/var/tmp/_bazel_nickan/95c3371f6202c3fa475712f59d822915/execroot/vaticle_typedb_driver/bazel-out/darwin-fastbuild/bin/go/swigdir/libtypedb_driver_go_native.dylib
